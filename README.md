@@ -5,7 +5,10 @@ Simplest currency converter with CurrecnyConverterApi
 ## ⬇️  Installation
 
 - Recommended installation is `pip` install
-- `pip install currencyconverterapi`
+
+```
+pip install currencyconverterapi
+```
 
 ## 🔑 Get Your Free Api Key
 
