@@ -48,8 +48,8 @@ setup(
         "Topic :: Utilities",
     ],
     project_urls={
-        "Changelog": "https://github.com/yedhrab/currecyconverterapi/blob/master/CHANGELOG.md",
-        "Issue Tracker": "https://github.com/yedhrab/currecyconverterapi/issues",
+        "Changelog": "https://github.com/yedhrab/CurrencyConverterApi/blob/main/CHANGELOG.md",
+        "Issue Tracker": "https://github.com/yedhrab/CurrencyConverterApi/issues",
     },
     keywords=["currencyconverter", "conveter", "currecies"],
     python_requires=">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
