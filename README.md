@@ -2,11 +2,23 @@
 
 Simplest currency converter with CurrecnyConverterApi
 
+## ⬇️  Installation
+
+- Recommended installation is `pip` install
+- `pip install currencyconverterapi`
+
 ## 🔑 Get Your Free Api Key
 
 - Click the link: https://free.currencyconverterapi.com/free-api-key
 - Type your e-mail
 - Verify your email and use the key that send to your e-mail
+
+## 👮‍♂️ Free Forex API Rate Limits
+
+- Currency Pairs per Request: 2
+- Number of Requests per Hour: 100
+- Date Range in History: 8 Days
+- Allowed Back in History: 1 Year(s)
 
 ## 🗄 Cache System
 
