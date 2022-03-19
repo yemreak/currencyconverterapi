@@ -3,7 +3,7 @@ from os.path import basename, splitext
 
 from setuptools import find_packages, setup
 
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 README_PATH = "README.md"
 
 # test_requirements = ["behave", "behave-classy", "pytest"]
@@ -16,7 +16,7 @@ setup(
     name="currecyconverterapi",
     version=VERSION,
     license="Apache Software License 2.0",
-    description="Simplest currency converter with pure python with CurrecnyConverterApi",
+    description="Simplest currency converter with CurrecnyConverterApi",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Yunus Emre Ak",
@@ -53,5 +53,6 @@ setup(
     },
     keywords=["currencyconverter", "conveter", "currecies"],
     python_requires=">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+    install_requires=["ruamel.yaml==0.17.21"],
     entry_points={"console_scripts": ["convert = currencyconverterapi.__init__:main"]},
 )

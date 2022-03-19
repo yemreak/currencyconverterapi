@@ -1,12 +1,17 @@
 # 💱 Currency Conveter Api
 
-Simplest currency converter with pure python with CurrecnyConverterApi
+Simplest currency converter with CurrecnyConverterApi
 
-## 🔑  Get Your Free Api Key
+## 🔑 Get Your Free Api Key
 
 - Click the link: https://free.currencyconverterapi.com/free-api-key
 - Type your e-mail
 - Verify your email and use the key that send to your e-mail
+
+## 🗄 Cache System
+
+- All data is stored in `$HOME/currencyconverterapi.yml`
+- All cached pair value are refreshed every 10 mins
 
 ## 🪪  License
 

@@ -5,18 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Args: Alfred workflow",
-            "type": "python",
-            "request": "launch",
-            "program": "main.py",
-            "console": "integratedTerminal",
-            "justMyCode": true,
-            "args": [
-                "1 usd try"
-            ]
-        },
-        {
-            "name": "Args: Python workflow",
+            "name": "Main",
             "type": "python",
             "request": "launch",
             "program": "main.py",
@@ -24,10 +13,9 @@
             "justMyCode": true,
             "args": [
                 "1",
-                "usdt",
+                "usd",
                 "try",
-                "--key",
             ]
-        },
+        }
     ]
 }
